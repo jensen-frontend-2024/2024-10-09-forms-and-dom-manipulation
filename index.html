@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and DOM manipulation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Register User</legend>
+        <form class="form">
+            <div class="input-container">
+                <label for="username">Username</label>
+                <input id="username" type="text">
+            </div>
+
+            <div class="input-container">
+                <label for="address">Address</label>
+                <input id="address" type="text">
+            </div>
+
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="input-container">
+                <label for="telephone">Telephone</label>
+                <input type="tel" id="telephone">
+            </div>
+
+            <div class="input-container">
+                <label for="date">Date</label>
+                <input type="date" id="date">
+            </div>
+
+            <div class="input-container">
+                <label for="number">Number</label>
+                <input type="number" id="number">
+            </div>
+
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password">
+            </div>
+            <button class="btn" type="button">Submit</button>
+        </form>
+    </fieldset>
+
+    <!-- The script tag should always be at the bottom of the body, since we want all the elements to be loaded before the script files runs. -->
+    <script src="index.js"></script>
+</body>
+</html>
